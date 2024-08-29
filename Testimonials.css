@@ -1,0 +1,48 @@
+/* Client Testimonials Section Styles */
+.client-testimonials {
+  padding: 20px;
+  text-align: center;
+}
+
+.client-testimonials h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between testimonial blocks */
+}
+
+.testimonial {
+  flex: 1 1 300px; /* Base size of testimonial block */
+  max-width: 350px; /* Limit size of testimonial blocks */
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.client-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Circular logo */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.client-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+}

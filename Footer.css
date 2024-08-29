@@ -1,0 +1,57 @@
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-about,
+.footer-quicklinks {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-about h2,
+.footer-quicklinks h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-about p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-quicklinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-quicklinks li {
+  margin: 10px 0;
+}
+
+.footer-quicklinks a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer-quicklinks a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}

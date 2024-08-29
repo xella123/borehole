@@ -1,0 +1,36 @@
+/* Happy Clients Section Styles */
+.happy-clients {
+  padding: 20px;
+  text-align: center;
+}
+
+.happy-clients h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.clients-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between client items */
+}
+
+.client {
+  flex: 1 1 150px; /* Base size of client block */
+  max-width: 150px; /* Limit size of client blocks */
+  text-align: center;
+}
+
+.client-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.client p {
+  font-size: 0.9rem;
+  color: #333;
+}
